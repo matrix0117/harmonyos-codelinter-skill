@@ -1,0 +1,295 @@
+# HarmonyOS CodeLinter Rules Catalog
+
+- Generated at (UTC): 2026-03-04T14:32:01+00:00
+- Source page: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-codelinter-rule
+
+## Categories
+
+### typescript-eslint (@typescript-eslint/)
+- Rules: 111
+- Page: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-typescript-eslint
+
+- `@typescript-eslint/adjacent-overload-signatures`
+- `@typescript-eslint/array-type`
+- `@typescript-eslint/await-thenable`
+- `@typescript-eslint/ban-ts-comment`
+- `@typescript-eslint/ban-tslint-comment`
+- `@typescript-eslint/ban-types`
+- `@typescript-eslint/brace-style`
+- `@typescript-eslint/class-literal-property-style`
+- `@typescript-eslint/comma-dangle`
+- `@typescript-eslint/comma-spacing`
+- `@typescript-eslint/consistent-indexed-object-style`
+- `@typescript-eslint/consistent-type-assertions`
+- `@typescript-eslint/consistent-type-definitions`
+- `@typescript-eslint/consistent-type-imports`
+- `@typescript-eslint/default-param-last`
+- `@typescript-eslint/dot-notation`
+- `@typescript-eslint/explicit-function-return-type`
+- `@typescript-eslint/explicit-member-accessibility`
+- `@typescript-eslint/explicit-module-boundary-types`
+- `@typescript-eslint/func-call-spacing`
+- `@typescript-eslint/init-declarations`
+- `@typescript-eslint/keyword-spacing`
+- `@typescript-eslint/lines-between-class-members`
+- `@typescript-eslint/member-delimiter-style`
+- `@typescript-eslint/member-ordering`
+- `@typescript-eslint/method-signature-style`
+- `@typescript-eslint/naming-convention`
+- `@typescript-eslint/no-array-constructor`
+- `@typescript-eslint/no-base-to-string`
+- `@typescript-eslint/no-confusing-non-null-assertion`
+- `@typescript-eslint/no-confusing-void-expression`
+- `@typescript-eslint/no-dupe-class-members`
+- `@typescript-eslint/no-duplicate-imports`
+- `@typescript-eslint/no-dynamic-delete`
+- `@typescript-eslint/no-empty-function`
+- `@typescript-eslint/no-empty-interface`
+- `@typescript-eslint/no-explicit-any`
+- `@typescript-eslint/no-extra-non-null-assertion`
+- `@typescript-eslint/no-extra-parens`
+- `@typescript-eslint/no-extra-semi`
+- `@typescript-eslint/no-extraneous-class`
+- `@typescript-eslint/no-floating-promises`
+- `@typescript-eslint/no-for-in-array`
+- `@typescript-eslint/no-implicit-any-catch`
+- `@typescript-eslint/no-implied-eval`
+- `@typescript-eslint/no-inferrable-types`
+- `@typescript-eslint/no-invalid-this`
+- `@typescript-eslint/no-invalid-void-type`
+- `@typescript-eslint/no-loop-func`
+- `@typescript-eslint/no-loss-of-precision`
+- `@typescript-eslint/no-magic-numbers`
+- `@typescript-eslint/no-misused-new`
+- `@typescript-eslint/no-misused-promises`
+- `@typescript-eslint/no-namespace`
+- `@typescript-eslint/no-non-null-asserted-optional-chain`
+- `@typescript-eslint/no-non-null-assertion`
+- `@typescript-eslint/no-parameter-properties`
+- `@typescript-eslint/no-redeclare`
+- `@typescript-eslint/no-require-imports`
+- `@typescript-eslint/no-restricted-syntax`
+- `@typescript-eslint/no-shadow`
+- `@typescript-eslint/no-this-alias`
+- `@typescript-eslint/no-throw-literal`
+- `@typescript-eslint/no-type-alias`
+- `@typescript-eslint/no-unnecessary-boolean-literal-compare`
+- `@typescript-eslint/no-unnecessary-condition`
+- `@typescript-eslint/no-unnecessary-qualifier`
+- `@typescript-eslint/no-unnecessary-type-arguments`
+- `@typescript-eslint/no-unnecessary-type-assertion`
+- `@typescript-eslint/no-unnecessary-type-constraint`
+- `@typescript-eslint/no-unsafe-argument`
+- `@typescript-eslint/no-unsafe-assignment`
+- `@typescript-eslint/no-unsafe-call`
+- `@typescript-eslint/no-unsafe-member-access`
+- `@typescript-eslint/no-unsafe-return`
+- `@typescript-eslint/no-unused-expressions`
+- `@typescript-eslint/no-unused-vars`
+- `@typescript-eslint/no-use-before-define`
+- `@typescript-eslint/no-useless-constructor`
+- `@typescript-eslint/prefer-as-const`
+- `@typescript-eslint/prefer-enum-initializers`
+- `@typescript-eslint/prefer-for-of`
+- `@typescript-eslint/prefer-function-type`
+- `@typescript-eslint/prefer-includes`
+- `@typescript-eslint/prefer-literal-enum-member`
+- `@typescript-eslint/prefer-namespace-keyword`
+- `@typescript-eslint/prefer-nullish-coalescing`
+- `@typescript-eslint/prefer-optional-chain`
+- `@typescript-eslint/prefer-readonly`
+- `@typescript-eslint/prefer-readonly-parameter-types`
+- `@typescript-eslint/prefer-reduce-type-parameter`
+- `@typescript-eslint/prefer-regexp-exec`
+- `@typescript-eslint/prefer-string-starts-ends-with`
+- `@typescript-eslint/prefer-ts-expect-error`
+- `@typescript-eslint/promise-function-async`
+- `@typescript-eslint/quotes`
+- `@typescript-eslint/require-array-sort-compare`
+- `@typescript-eslint/require-await`
+- `@typescript-eslint/restrict-plus-operands`
+- `@typescript-eslint/restrict-template-expressions`
+- `@typescript-eslint/return-await`
+- `@typescript-eslint/semi`
+- `@typescript-eslint/space-before-function-paren`
+- `@typescript-eslint/space-infix-ops`
+- `@typescript-eslint/strict-boolean-expressions`
+- `@typescript-eslint/switch-exhaustiveness-check`
+- `@typescript-eslint/triple-slash-reference`
+- `@typescript-eslint/type-annotation-spacing`
+- `@typescript-eslint/typedef`
+- `@typescript-eslint/unbound-method`
+- `@typescript-eslint/unified-signatures`
+
+### security (@security/)
+- Rules: 21
+- Page: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-security
+
+- `@security/no-commented-code`
+- `@security/no-cycle`
+- `@security/no-unsafe-3des`
+- `@security/no-unsafe-aes`
+- `@security/no-unsafe-dh`
+- `@security/no-unsafe-dh-key`
+- `@security/no-unsafe-dsa`
+- `@security/no-unsafe-dsa-key`
+- `@security/no-unsafe-ecdh`
+- `@security/no-unsafe-ecdsa`
+- `@security/no-unsafe-hash`
+- `@security/no-unsafe-huks`
+- `@security/no-unsafe-kdf`
+- `@security/no-unsafe-mac`
+- `@security/no-unsafe-rsa-encrypt`
+- `@security/no-unsafe-rsa-key`
+- `@security/no-unsafe-rsa-sign`
+- `@security/no-unsafe-sm2-cipher`
+- `@security/no-unsafe-sm2-key`
+- `@security/no-unsafe-sm4`
+- `@security/specified-interface-call-chain-check`
+
+### performance (@performance/)
+- Rules: 74
+- Page: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-performance
+
+- `@performance/avoid-overusing-custom-component-check`
+- `@performance/bad-deep-clone-check`
+- `@performance/constant-property-referencing-check-in-loops`
+- `@performance/crypto-replacement-check`
+- `@performance/dark-color-mode-check`
+- `@performance/datashare-query-unrelease-check`
+- `@performance/foreach-args-check`
+- `@performance/foreach-index-check`
+- `@performance/gif-hardware-decoding-check`
+- `@performance/high-frequency-log-check`
+- `@performance/hp-arkts-no-use-any-export-current`
+- `@performance/hp-arkts-no-use-any-export-other`
+- `@performance/hp-arkui-avoid-empty-callback`
+- `@performance/hp-arkui-avoid-update-auto-state-var-in-aboutToReuse`
+- `@performance/hp-arkui-combine-same-arg-animateto`
+- `@performance/hp-arkui-image-async-load`
+- `@performance/hp-arkui-limit-refresh-scope`
+- `@performance/hp-arkui-load-on-demand`
+- `@performance/hp-arkui-no-func-as-arg-for-reusable-component`
+- `@performance/hp-arkui-no-high-freq-log`
+- `@performance/hp-arkui-no-state-var-access-in-loop`
+- `@performance/hp-arkui-no-stringify-in-lazyforeach-key-generator`
+- `@performance/hp-arkui-reduce-pangesture-distance`
+- `@performance/hp-arkui-remove-container-without-property`
+- `@performance/hp-arkui-remove-redundant-nest-container`
+- `@performance/hp-arkui-remove-redundant-state-var`
+- `@performance/hp-arkui-remove-unchanged-state-var`
+- `@performance/hp-arkui-replace-nested-reusable-component-by-builder`
+- `@performance/hp-arkui-set-cache-count-for-lazyforeach-grid`
+- `@performance/hp-arkui-suggest-cache-avplayer`
+- `@performance/hp-arkui-suggest-reuseid-for-if-else-reusable-component`
+- `@performance/hp-arkui-suggest-use-effectkit-blur`
+- `@performance/hp-arkui-suggest-use-get-anonymousid-async`
+- `@performance/hp-arkui-use-attributeUpdater-control-refresh-scope`
+- `@performance/hp-arkui-use-grid-layout-options`
+- `@performance/hp-arkui-use-id-in-get-resource-sync-api`
+- `@performance/hp-arkui-use-local-var-to-replace-state-var`
+- `@performance/hp-arkui-use-object-link-to-replace-prop`
+- `@performance/hp-arkui-use-onAnimationStart-for-swiper-preload`
+- `@performance/hp-arkui-use-reusable-component`
+- `@performance/hp-arkui-use-row-column-to-replace-flex`
+- `@performance/hp-arkui-use-scale-to-replace-attr-animateto`
+- `@performance/hp-arkui-use-taskpool-for-web-request`
+- `@performance/hp-arkui-use-transition-to-replace-animateto`
+- `@performance/hp-arkui-use-word-break-to-replace-zero-width-space`
+- `@performance/hp-arkui-wrap-waterflow-if-else-footer`
+- `@performance/hp-ffrt-no-use-std`
+- `@performance/hp-performance-no-closures`
+- `@performance/hp-performance-no-dynamic-cls-func`
+- `@performance/init-list-component`
+- `@performance/js-code-cache-by-interception-check`
+- `@performance/js-code-cache-by-precompile-check`
+- `@performance/lazyforeach-args-check`
+- `@performance/lottie-animation-destroy-check`
+- `@performance/monitor-invisible-area-in-image-animation`
+- `@performance/multiple-associations-state-var-check`
+- `@performance/nested-post-frame-callback-check`
+- `@performance/no-high-loaded-frame-rate-range`
+- `@performance/no-use-any-import`
+- `@performance/number-init-check`
+- `@performance/object-creation-check`
+- `@performance/reasonable-audio-use-check`
+- `@performance/reasonable-gps-use-check`
+- `@performance/reasonable-sensor-use-check`
+- `@performance/reuse-date-instances-check`
+- `@performance/sparse-array-check`
+- `@performance/start-window-icon-check`
+- `@performance/tabs-on-change-check`
+- `@performance/timezone-interface-check`
+- `@performance/typed-array-check`
+- `@performance/update-state-var-between-animatetos-check`
+- `@performance/waterflow-data-preload-check`
+- `@performance/web-cache-mode-check`
+- `@performance/web-on-active-check`
+
+### previewer (@previewer/)
+- Rules: 3
+- Page: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer
+
+- `@previewer/mandatory-default-value-for-local-initialization`
+- `@previewer/no-page-method-on-preview-component`
+- `@previewer/no-unallowed-decorator-on-root-component`
+
+### cross-device-app-dev (@cross-device-app-dev/)
+- Rules: 12
+- Page: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-cross-device-app-dev
+
+- `@cross-device-app-dev/color-contrast`
+- `@cross-device-app-dev/color-value`
+- `@cross-device-app-dev/font-size`
+- `@cross-device-app-dev/font-size-unit`
+- `@cross-device-app-dev/grid-columns-span`
+- `@cross-device-app-dev/grid-span-value`
+- `@cross-device-app-dev/immersive-effect-check`
+- `@cross-device-app-dev/one-multi-breakpoint-check`
+- `@cross-device-app-dev/sidebar-navigation`
+- `@cross-device-app-dev/size-unit`
+- `@cross-device-app-dev/touch-target-size`
+- `@cross-device-app-dev/window-size-change-listener-check`
+
+### hw-stylistic (@hw-stylistic/)
+- Rules: 18
+- Page: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hw-stylistic
+
+- `@hw-stylistic/array-bracket-spacing`
+- `@hw-stylistic/brace-style`
+- `@hw-stylistic/comma-spacing`
+- `@hw-stylistic/curly`
+- `@hw-stylistic/file-naming-convention`
+- `@hw-stylistic/indent`
+- `@hw-stylistic/keyword-spacing`
+- `@hw-stylistic/max-len`
+- `@hw-stylistic/no-multi-spaces`
+- `@hw-stylistic/no-tabs`
+- `@hw-stylistic/object-property-newline`
+- `@hw-stylistic/one-var-declaration-per-line`
+- `@hw-stylistic/operator-linebreak`
+- `@hw-stylistic/quotes`
+- `@hw-stylistic/semi-spacing`
+- `@hw-stylistic/space-before-blocks`
+- `@hw-stylistic/space-before-function-paren`
+- `@hw-stylistic/space-infix-ops`
+
+### correctness (@correctness/)
+- Rules: 9
+- Page: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-codelinter-correctness
+
+- `@correctness/audio-interrupt-check`
+- `@correctness/audio-pause-or-mute-check`
+- `@correctness/avsession-buttons-check`
+- `@correctness/avsession-metadata-check`
+- `@correctness/image-interpolation-check`
+- `@correctness/image-pixel-format-check`
+- `@correctness/listen-default-network-change`
+- `@correctness/listen-multi-network-concurrent`
+- `@correctness/redundant-dependency-check`
+
+### compatibility (@compatibility/)
+- Rules: 1
+- Page: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-codelinter-compatibility
+
+- `@compatibility/api-compatibility-check`

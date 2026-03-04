@@ -1,0 +1,37 @@
+{
+  "ordered_categories": [
+    {
+      "name": "typescript-eslint",
+      "patterns": ["^@typescript-eslint/"]
+    },
+    {
+      "name": "security",
+      "patterns": ["^@security/"]
+    },
+    {
+      "name": "performance",
+      "patterns": ["^@performance/"]
+    },
+    {
+      "name": "previewer",
+      "patterns": ["^@previewer/"]
+    },
+    {
+      "name": "cross-device-app-dev",
+      "patterns": ["^@cross-device-app-dev/"]
+    },
+    {
+      "name": "hw-stylistic",
+      "patterns": ["^@hw-stylistic/"]
+    },
+    {
+      "name": "correctness",
+      "patterns": ["^@correctness/"]
+    },
+    {
+      "name": "compatibility",
+      "patterns": ["^@compatibility/"]
+    }
+  ],
+  "fallback_category": "custom-or-unknown"
+}

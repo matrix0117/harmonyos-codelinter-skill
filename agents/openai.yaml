@@ -1,0 +1,4 @@
+interface:
+  display_name: "HarmonyOS CodeLinter"
+  short_description: "Detect and fix HarmonyOS CodeLinter rule violations"
+  default_prompt: "Scan HarmonyOS project files, detect CodeLinter violations by category, and apply safe auto-fixes with a clear change summary."

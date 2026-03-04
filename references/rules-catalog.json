@@ -1,0 +1,1323 @@
+{
+  "source_page": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-codelinter-rule",
+  "generated_at_utc": "2026-03-04T14:32:01+00:00",
+  "categories": [
+    {
+      "name": "typescript-eslint",
+      "namespace": "@typescript-eslint/",
+      "url": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-typescript-eslint",
+      "rule_ids": [
+        "@typescript-eslint/adjacent-overload-signatures",
+        "@typescript-eslint/array-type",
+        "@typescript-eslint/await-thenable",
+        "@typescript-eslint/ban-ts-comment",
+        "@typescript-eslint/ban-tslint-comment",
+        "@typescript-eslint/ban-types",
+        "@typescript-eslint/brace-style",
+        "@typescript-eslint/class-literal-property-style",
+        "@typescript-eslint/comma-dangle",
+        "@typescript-eslint/comma-spacing",
+        "@typescript-eslint/consistent-indexed-object-style",
+        "@typescript-eslint/consistent-type-assertions",
+        "@typescript-eslint/consistent-type-definitions",
+        "@typescript-eslint/consistent-type-imports",
+        "@typescript-eslint/default-param-last",
+        "@typescript-eslint/dot-notation",
+        "@typescript-eslint/explicit-function-return-type",
+        "@typescript-eslint/explicit-member-accessibility",
+        "@typescript-eslint/explicit-module-boundary-types",
+        "@typescript-eslint/func-call-spacing",
+        "@typescript-eslint/init-declarations",
+        "@typescript-eslint/keyword-spacing",
+        "@typescript-eslint/lines-between-class-members",
+        "@typescript-eslint/member-delimiter-style",
+        "@typescript-eslint/member-ordering",
+        "@typescript-eslint/method-signature-style",
+        "@typescript-eslint/naming-convention",
+        "@typescript-eslint/no-array-constructor",
+        "@typescript-eslint/no-base-to-string",
+        "@typescript-eslint/no-confusing-non-null-assertion",
+        "@typescript-eslint/no-confusing-void-expression",
+        "@typescript-eslint/no-dupe-class-members",
+        "@typescript-eslint/no-duplicate-imports",
+        "@typescript-eslint/no-dynamic-delete",
+        "@typescript-eslint/no-empty-function",
+        "@typescript-eslint/no-empty-interface",
+        "@typescript-eslint/no-explicit-any",
+        "@typescript-eslint/no-extra-non-null-assertion",
+        "@typescript-eslint/no-extra-parens",
+        "@typescript-eslint/no-extra-semi",
+        "@typescript-eslint/no-extraneous-class",
+        "@typescript-eslint/no-floating-promises",
+        "@typescript-eslint/no-for-in-array",
+        "@typescript-eslint/no-implicit-any-catch",
+        "@typescript-eslint/no-implied-eval",
+        "@typescript-eslint/no-inferrable-types",
+        "@typescript-eslint/no-invalid-this",
+        "@typescript-eslint/no-invalid-void-type",
+        "@typescript-eslint/no-loop-func",
+        "@typescript-eslint/no-loss-of-precision",
+        "@typescript-eslint/no-magic-numbers",
+        "@typescript-eslint/no-misused-new",
+        "@typescript-eslint/no-misused-promises",
+        "@typescript-eslint/no-namespace",
+        "@typescript-eslint/no-non-null-asserted-optional-chain",
+        "@typescript-eslint/no-non-null-assertion",
+        "@typescript-eslint/no-parameter-properties",
+        "@typescript-eslint/no-redeclare",
+        "@typescript-eslint/no-require-imports",
+        "@typescript-eslint/no-restricted-syntax",
+        "@typescript-eslint/no-shadow",
+        "@typescript-eslint/no-this-alias",
+        "@typescript-eslint/no-throw-literal",
+        "@typescript-eslint/no-type-alias",
+        "@typescript-eslint/no-unnecessary-boolean-literal-compare",
+        "@typescript-eslint/no-unnecessary-condition",
+        "@typescript-eslint/no-unnecessary-qualifier",
+        "@typescript-eslint/no-unnecessary-type-arguments",
+        "@typescript-eslint/no-unnecessary-type-assertion",
+        "@typescript-eslint/no-unnecessary-type-constraint",
+        "@typescript-eslint/no-unsafe-argument",
+        "@typescript-eslint/no-unsafe-assignment",
+        "@typescript-eslint/no-unsafe-call",
+        "@typescript-eslint/no-unsafe-member-access",
+        "@typescript-eslint/no-unsafe-return",
+        "@typescript-eslint/no-unused-expressions",
+        "@typescript-eslint/no-unused-vars",
+        "@typescript-eslint/no-use-before-define",
+        "@typescript-eslint/no-useless-constructor",
+        "@typescript-eslint/prefer-as-const",
+        "@typescript-eslint/prefer-enum-initializers",
+        "@typescript-eslint/prefer-for-of",
+        "@typescript-eslint/prefer-function-type",
+        "@typescript-eslint/prefer-includes",
+        "@typescript-eslint/prefer-literal-enum-member",
+        "@typescript-eslint/prefer-namespace-keyword",
+        "@typescript-eslint/prefer-nullish-coalescing",
+        "@typescript-eslint/prefer-optional-chain",
+        "@typescript-eslint/prefer-readonly",
+        "@typescript-eslint/prefer-readonly-parameter-types",
+        "@typescript-eslint/prefer-reduce-type-parameter",
+        "@typescript-eslint/prefer-regexp-exec",
+        "@typescript-eslint/prefer-string-starts-ends-with",
+        "@typescript-eslint/prefer-ts-expect-error",
+        "@typescript-eslint/promise-function-async",
+        "@typescript-eslint/quotes",
+        "@typescript-eslint/require-array-sort-compare",
+        "@typescript-eslint/require-await",
+        "@typescript-eslint/restrict-plus-operands",
+        "@typescript-eslint/restrict-template-expressions",
+        "@typescript-eslint/return-await",
+        "@typescript-eslint/semi",
+        "@typescript-eslint/space-before-function-paren",
+        "@typescript-eslint/space-infix-ops",
+        "@typescript-eslint/strict-boolean-expressions",
+        "@typescript-eslint/switch-exhaustiveness-check",
+        "@typescript-eslint/triple-slash-reference",
+        "@typescript-eslint/type-annotation-spacing",
+        "@typescript-eslint/typedef",
+        "@typescript-eslint/unbound-method",
+        "@typescript-eslint/unified-signatures"
+      ],
+      "rule_anchors": [
+        {
+          "text": "@typescript-eslint/adjacent-overload-signatures",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_adjacent-overload-signatures"
+        },
+        {
+          "text": "@typescript-eslint/array-type",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_array-type"
+        },
+        {
+          "text": "@typescript-eslint/await-thenable",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_await-thenable"
+        },
+        {
+          "text": "@typescript-eslint/ban-ts-comment",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_ban-ts-comment"
+        },
+        {
+          "text": "@typescript-eslint/ban-tslint-comment",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_ban-tslint-comment"
+        },
+        {
+          "text": "@typescript-eslint/ban-types",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_ban-types"
+        },
+        {
+          "text": "@typescript-eslint/brace-style",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_brace-style"
+        },
+        {
+          "text": "@typescript-eslint/class-literal-property-style",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_class-literal-property-style"
+        },
+        {
+          "text": "@typescript-eslint/comma-dangle",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_comma-dangle"
+        },
+        {
+          "text": "@typescript-eslint/comma-spacing",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_comma-spacing"
+        },
+        {
+          "text": "@typescript-eslint/consistent-indexed-object-style",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_consistent-indexed-object-style"
+        },
+        {
+          "text": "@typescript-eslint/consistent-type-assertions",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_consistent-type-assertions"
+        },
+        {
+          "text": "@typescript-eslint/consistent-type-definitions",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_consistent-type-definitions"
+        },
+        {
+          "text": "@typescript-eslint/consistent-type-imports",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_consistent-type-imports"
+        },
+        {
+          "text": "@typescript-eslint/default-param-last",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_default-param-last"
+        },
+        {
+          "text": "@typescript-eslint/dot-notation",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_dot-notation"
+        },
+        {
+          "text": "@typescript-eslint/explicit-function-return-type",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_explicit-function-return-type"
+        },
+        {
+          "text": "@typescript-eslint/explicit-member-accessibility",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_explicit-member-accessibility"
+        },
+        {
+          "text": "@typescript-eslint/explicit-module-boundary-types",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_explicit-module-boundary-types"
+        },
+        {
+          "text": "@typescript-eslint/func-call-spacing",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_func-call-spacing"
+        },
+        {
+          "text": "@typescript-eslint/init-declarations",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_init-declarations"
+        },
+        {
+          "text": "@typescript-eslint/keyword-spacing",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_keyword-spacing"
+        },
+        {
+          "text": "@typescript-eslint/lines-between-class-members",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_lines-between-class-members"
+        },
+        {
+          "text": "@typescript-eslint/member-delimiter-style",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_member-delimiter-style"
+        },
+        {
+          "text": "@typescript-eslint/member-ordering",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_member-ordering"
+        },
+        {
+          "text": "@typescript-eslint/method-signature-style",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_method-signature-style"
+        },
+        {
+          "text": "@typescript-eslint/naming-convention",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_naming-convention"
+        },
+        {
+          "text": "@typescript-eslint/no-array-constructor",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-array-constructor"
+        },
+        {
+          "text": "@typescript-eslint/no-base-to-string",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-base-to-string"
+        },
+        {
+          "text": "@typescript-eslint/no-confusing-non-null-assertion",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-confusing-non-null-assertion"
+        },
+        {
+          "text": "@typescript-eslint/no-confusing-void-expression",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-confusing-void-expression"
+        },
+        {
+          "text": "@typescript-eslint/no-dupe-class-members",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-dupe-class-members"
+        },
+        {
+          "text": "@typescript-eslint/no-duplicate-imports",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-duplicate-imports"
+        },
+        {
+          "text": "@typescript-eslint/no-dynamic-delete",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-dynamic-delete"
+        },
+        {
+          "text": "@typescript-eslint/no-empty-function",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-empty-function"
+        },
+        {
+          "text": "@typescript-eslint/no-empty-interface",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-empty-interface"
+        },
+        {
+          "text": "@typescript-eslint/no-explicit-any",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-explicit-any"
+        },
+        {
+          "text": "@typescript-eslint/no-extraneous-class",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-extraneous-class"
+        },
+        {
+          "text": "@typescript-eslint/no-extra-non-null-assertion",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-extra-non-null-assertion"
+        },
+        {
+          "text": "@typescript-eslint/no-extra-parens",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-extra-parens"
+        },
+        {
+          "text": "@typescript-eslint/no-extra-semi",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-extra-semi"
+        },
+        {
+          "text": "@typescript-eslint/no-floating-promises",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-floating-promises"
+        },
+        {
+          "text": "@typescript-eslint/no-for-in-array",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-for-in-array"
+        },
+        {
+          "text": "@typescript-eslint/no-implicit-any-catch",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-implicit-any-catch"
+        },
+        {
+          "text": "@typescript-eslint/no-implied-eval",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-implied-eval"
+        },
+        {
+          "text": "@typescript-eslint/no-inferrable-types",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-inferrable-types"
+        },
+        {
+          "text": "@typescript-eslint/no-invalid-this",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-invalid-this"
+        },
+        {
+          "text": "@typescript-eslint/no-invalid-void-type",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-invalid-void-type"
+        },
+        {
+          "text": "@typescript-eslint/no-loop-func",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-loop-func"
+        },
+        {
+          "text": "@typescript-eslint/no-loss-of-precision",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-loss-of-precision"
+        },
+        {
+          "text": "@typescript-eslint/no-magic-numbers",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-magic-numbers"
+        },
+        {
+          "text": "@typescript-eslint/no-misused-new",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-misused-new"
+        },
+        {
+          "text": "@typescript-eslint/no-misused-promises",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-misused-promises"
+        },
+        {
+          "text": "@typescript-eslint/no-namespace",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-namespace"
+        },
+        {
+          "text": "@typescript-eslint/no-non-null-asserted-optional-chain",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-non-null-asserted-optional-chain"
+        },
+        {
+          "text": "@typescript-eslint/no-non-null-assertion",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-non-null-assertion"
+        },
+        {
+          "text": "@typescript-eslint/no-parameter-properties",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-parameter-properties"
+        },
+        {
+          "text": "@typescript-eslint/no-redeclare",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-redeclare"
+        },
+        {
+          "text": "@typescript-eslint/no-require-imports",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-require-imports"
+        },
+        {
+          "text": "@typescript-eslint/no-restricted-syntax",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-restricted-syntax"
+        },
+        {
+          "text": "@typescript-eslint/no-shadow",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-shadow"
+        },
+        {
+          "text": "@typescript-eslint/no-this-alias",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-this-alias"
+        },
+        {
+          "text": "@typescript-eslint/no-throw-literal",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-throw-literal"
+        },
+        {
+          "text": "@typescript-eslint/no-type-alias",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-type-alias"
+        },
+        {
+          "text": "@typescript-eslint/no-unnecessary-boolean-literal-compare",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unnecessary-boolean-literal-compare"
+        },
+        {
+          "text": "@typescript-eslint/no-unnecessary-condition",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unnecessary-condition"
+        },
+        {
+          "text": "@typescript-eslint/no-unnecessary-qualifier",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unnecessary-qualifier"
+        },
+        {
+          "text": "@typescript-eslint/no-unnecessary-type-arguments",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unnecessary-type-arguments"
+        },
+        {
+          "text": "@typescript-eslint/no-unnecessary-type-assertion",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unnecessary-type-assertion"
+        },
+        {
+          "text": "@typescript-eslint/no-unnecessary-type-constraint",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unnecessary-type-constraint"
+        },
+        {
+          "text": "@typescript-eslint/no-unsafe-argument",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-argument"
+        },
+        {
+          "text": "@typescript-eslint/no-unsafe-assignment",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-assignment"
+        },
+        {
+          "text": "@typescript-eslint/no-unsafe-call",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-call"
+        },
+        {
+          "text": "@typescript-eslint/no-unsafe-member-access",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-member-access"
+        },
+        {
+          "text": "@typescript-eslint/no-unsafe-return",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-return"
+        },
+        {
+          "text": "@typescript-eslint/no-unused-expressions",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unused-expressions"
+        },
+        {
+          "text": "@typescript-eslint/no-unused-vars",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unused-vars"
+        },
+        {
+          "text": "@typescript-eslint/no-use-before-define",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-use-before-define"
+        },
+        {
+          "text": "@typescript-eslint/no-useless-constructor",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-useless-constructor"
+        },
+        {
+          "text": "@typescript-eslint/prefer-as-const",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-as-const"
+        },
+        {
+          "text": "@typescript-eslint/prefer-enum-initializers",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-enum-initializers"
+        },
+        {
+          "text": "@typescript-eslint/prefer-for-of",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-for-of"
+        },
+        {
+          "text": "@typescript-eslint/prefer-function-type",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-function-type"
+        },
+        {
+          "text": "@typescript-eslint/prefer-includes",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-includes"
+        },
+        {
+          "text": "@typescript-eslint/prefer-literal-enum-member",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-literal-enum-member"
+        },
+        {
+          "text": "@typescript-eslint/prefer-namespace-keyword",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-namespace-keyword"
+        },
+        {
+          "text": "@typescript-eslint/prefer-nullish-coalescing",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-nullish-coalescing"
+        },
+        {
+          "text": "@typescript-eslint/prefer-optional-chain",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-optional-chain"
+        },
+        {
+          "text": "@typescript-eslint/prefer-readonly",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-readonly"
+        },
+        {
+          "text": "@typescript-eslint/prefer-readonly-parameter-types",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-readonly-parameter-types"
+        },
+        {
+          "text": "@typescript-eslint/prefer-reduce-type-parameter",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-reduce-type-parameter"
+        },
+        {
+          "text": "@typescript-eslint/prefer-regexp-exec",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-regexp-exec"
+        },
+        {
+          "text": "@typescript-eslint/prefer-string-starts-ends-with",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-string-starts-ends-with"
+        },
+        {
+          "text": "@typescript-eslint/prefer-ts-expect-error",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_prefer-ts-expect-error"
+        },
+        {
+          "text": "@typescript-eslint/promise-function-async",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_promise-function-async"
+        },
+        {
+          "text": "@typescript-eslint/quotes",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_quotes"
+        },
+        {
+          "text": "@typescript-eslint/require-array-sort-compare",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_require-array-sort-compare"
+        },
+        {
+          "text": "@typescript-eslint/require-await",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_require-await"
+        },
+        {
+          "text": "@typescript-eslint/restrict-plus-operands",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_restrict-plus-operands"
+        },
+        {
+          "text": "@typescript-eslint/restrict-template-expressions",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_restrict-template-expressions"
+        },
+        {
+          "text": "@typescript-eslint/return-await",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_return-await"
+        },
+        {
+          "text": "@typescript-eslint/semi",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_semi"
+        },
+        {
+          "text": "@typescript-eslint/space-before-function-paren",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_space-before-function-paren"
+        },
+        {
+          "text": "@typescript-eslint/space-infix-ops",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_space-infix-ops"
+        },
+        {
+          "text": "@typescript-eslint/strict-boolean-expressions",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_strict-boolean-expressions"
+        },
+        {
+          "text": "@typescript-eslint/switch-exhaustiveness-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_switch-exhaustiveness-check"
+        },
+        {
+          "text": "@typescript-eslint/triple-slash-reference",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_triple-slash-reference"
+        },
+        {
+          "text": "@typescript-eslint/type-annotation-spacing",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_type-annotation-spacing"
+        },
+        {
+          "text": "@typescript-eslint/typedef",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_typedef"
+        },
+        {
+          "text": "@typescript-eslint/unbound-method",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_unbound-method"
+        },
+        {
+          "text": "@typescript-eslint/unified-signatures",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_unified-signatures"
+        }
+      ]
+    },
+    {
+      "name": "security",
+      "namespace": "@security/",
+      "url": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-security",
+      "rule_ids": [
+        "@security/no-commented-code",
+        "@security/no-cycle",
+        "@security/no-unsafe-3des",
+        "@security/no-unsafe-aes",
+        "@security/no-unsafe-dh",
+        "@security/no-unsafe-dh-key",
+        "@security/no-unsafe-dsa",
+        "@security/no-unsafe-dsa-key",
+        "@security/no-unsafe-ecdh",
+        "@security/no-unsafe-ecdsa",
+        "@security/no-unsafe-hash",
+        "@security/no-unsafe-huks",
+        "@security/no-unsafe-kdf",
+        "@security/no-unsafe-mac",
+        "@security/no-unsafe-rsa-encrypt",
+        "@security/no-unsafe-rsa-key",
+        "@security/no-unsafe-rsa-sign",
+        "@security/no-unsafe-sm2-cipher",
+        "@security/no-unsafe-sm2-key",
+        "@security/no-unsafe-sm4",
+        "@security/specified-interface-call-chain-check"
+      ],
+      "rule_anchors": [
+        {
+          "text": "@security/no-commented-code",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-commented-code"
+        },
+        {
+          "text": "@security/no-cycle",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-cycle"
+        },
+        {
+          "text": "@security/no-unsafe-aes",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-aes"
+        },
+        {
+          "text": "@security/no-unsafe-dh",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-dh"
+        },
+        {
+          "text": "@security/no-unsafe-dsa",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-dsa"
+        },
+        {
+          "text": "@security/no-unsafe-dh-key",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-dh-key"
+        },
+        {
+          "text": "@security/no-unsafe-dsa-key",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-dsa-key"
+        },
+        {
+          "text": "@security/no-unsafe-ecdsa",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-ecdsa"
+        },
+        {
+          "text": "@security/no-unsafe-hash",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-hash"
+        },
+        {
+          "text": "@security/no-unsafe-mac",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-mac"
+        },
+        {
+          "text": "@security/no-unsafe-rsa-encrypt",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-rsa-encrypt"
+        },
+        {
+          "text": "@security/no-unsafe-rsa-key",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-rsa-key"
+        },
+        {
+          "text": "@security/no-unsafe-rsa-sign",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-rsa-sign"
+        },
+        {
+          "text": "@security/no-unsafe-3des",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-no-unsafe-3des"
+        },
+        {
+          "text": "@security/specified-interface-call-chain-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-specified-interface-call-chain-check"
+        },
+        {
+          "text": "@security/no-unsafe-kdf",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-kdf"
+        },
+        {
+          "text": "@security/no-unsafe-sm4",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-sm4"
+        },
+        {
+          "text": "@security/no-unsafe-sm2-key",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-sm2-key"
+        },
+        {
+          "text": "@security/no-unsafe-sm2-cipher",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-sm2-cipher"
+        },
+        {
+          "text": "@security/no-unsafe-ecdh",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-ecdh"
+        },
+        {
+          "text": "@security/no-unsafe-huks",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unsafe-huks"
+        }
+      ]
+    },
+    {
+      "name": "performance",
+      "namespace": "@performance/",
+      "url": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-performance",
+      "rule_ids": [
+        "@performance/avoid-overusing-custom-component-check",
+        "@performance/bad-deep-clone-check",
+        "@performance/constant-property-referencing-check-in-loops",
+        "@performance/crypto-replacement-check",
+        "@performance/dark-color-mode-check",
+        "@performance/datashare-query-unrelease-check",
+        "@performance/foreach-args-check",
+        "@performance/foreach-index-check",
+        "@performance/gif-hardware-decoding-check",
+        "@performance/high-frequency-log-check",
+        "@performance/hp-arkts-no-use-any-export-current",
+        "@performance/hp-arkts-no-use-any-export-other",
+        "@performance/hp-arkui-avoid-empty-callback",
+        "@performance/hp-arkui-avoid-update-auto-state-var-in-aboutToReuse",
+        "@performance/hp-arkui-combine-same-arg-animateto",
+        "@performance/hp-arkui-image-async-load",
+        "@performance/hp-arkui-limit-refresh-scope",
+        "@performance/hp-arkui-load-on-demand",
+        "@performance/hp-arkui-no-func-as-arg-for-reusable-component",
+        "@performance/hp-arkui-no-high-freq-log",
+        "@performance/hp-arkui-no-state-var-access-in-loop",
+        "@performance/hp-arkui-no-stringify-in-lazyforeach-key-generator",
+        "@performance/hp-arkui-reduce-pangesture-distance",
+        "@performance/hp-arkui-remove-container-without-property",
+        "@performance/hp-arkui-remove-redundant-nest-container",
+        "@performance/hp-arkui-remove-redundant-state-var",
+        "@performance/hp-arkui-remove-unchanged-state-var",
+        "@performance/hp-arkui-replace-nested-reusable-component-by-builder",
+        "@performance/hp-arkui-set-cache-count-for-lazyforeach-grid",
+        "@performance/hp-arkui-suggest-cache-avplayer",
+        "@performance/hp-arkui-suggest-reuseid-for-if-else-reusable-component",
+        "@performance/hp-arkui-suggest-use-effectkit-blur",
+        "@performance/hp-arkui-suggest-use-get-anonymousid-async",
+        "@performance/hp-arkui-use-attributeUpdater-control-refresh-scope",
+        "@performance/hp-arkui-use-grid-layout-options",
+        "@performance/hp-arkui-use-id-in-get-resource-sync-api",
+        "@performance/hp-arkui-use-local-var-to-replace-state-var",
+        "@performance/hp-arkui-use-object-link-to-replace-prop",
+        "@performance/hp-arkui-use-onAnimationStart-for-swiper-preload",
+        "@performance/hp-arkui-use-reusable-component",
+        "@performance/hp-arkui-use-row-column-to-replace-flex",
+        "@performance/hp-arkui-use-scale-to-replace-attr-animateto",
+        "@performance/hp-arkui-use-taskpool-for-web-request",
+        "@performance/hp-arkui-use-transition-to-replace-animateto",
+        "@performance/hp-arkui-use-word-break-to-replace-zero-width-space",
+        "@performance/hp-arkui-wrap-waterflow-if-else-footer",
+        "@performance/hp-ffrt-no-use-std",
+        "@performance/hp-performance-no-closures",
+        "@performance/hp-performance-no-dynamic-cls-func",
+        "@performance/init-list-component",
+        "@performance/js-code-cache-by-interception-check",
+        "@performance/js-code-cache-by-precompile-check",
+        "@performance/lazyforeach-args-check",
+        "@performance/lottie-animation-destroy-check",
+        "@performance/monitor-invisible-area-in-image-animation",
+        "@performance/multiple-associations-state-var-check",
+        "@performance/nested-post-frame-callback-check",
+        "@performance/no-high-loaded-frame-rate-range",
+        "@performance/no-use-any-import",
+        "@performance/number-init-check",
+        "@performance/object-creation-check",
+        "@performance/reasonable-audio-use-check",
+        "@performance/reasonable-gps-use-check",
+        "@performance/reasonable-sensor-use-check",
+        "@performance/reuse-date-instances-check",
+        "@performance/sparse-array-check",
+        "@performance/start-window-icon-check",
+        "@performance/tabs-on-change-check",
+        "@performance/timezone-interface-check",
+        "@performance/typed-array-check",
+        "@performance/update-state-var-between-animatetos-check",
+        "@performance/waterflow-data-preload-check",
+        "@performance/web-cache-mode-check",
+        "@performance/web-on-active-check"
+      ],
+      "rule_anchors": [
+        {
+          "text": "@performance/avoid-overusing-custom-component-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-avoid-overusing-custom-component-check"
+        },
+        {
+          "text": "@performance/bad-deep-clone-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-bad-deep-clone-check"
+        },
+        {
+          "text": "@performance/constant-property-referencing-check-in-loops",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-constant-property-check-in-loops"
+        },
+        {
+          "text": "@performance/crypto-replacement-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-crypto-replacement-check"
+        },
+        {
+          "text": "@performance/dark-color-mode-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-dark-color-mode-check"
+        },
+        {
+          "text": "@performance/datashare-query-unrelease-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-datashare-query-unrelease-check"
+        },
+        {
+          "text": "@performance/foreach-args-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-foreach-args-check"
+        },
+        {
+          "text": "@performance/foreach-index-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-foreach-index-check"
+        },
+        {
+          "text": "@performance/gif-hardware-decoding-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-gif-hardware-decoding-check"
+        },
+        {
+          "text": "@performance/hp-arkui-avoid-update-auto-state-var-in-aboutToReuse",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-abouttoreuse"
+        },
+        {
+          "text": "@performance/hp-arkui-avoid-empty-callback",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-avoid-empty-callback"
+        },
+        {
+          "text": "@performance/hp-arkui-combine-same-arg-animateto",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-combine-same-arg-animateto"
+        },
+        {
+          "text": "@performance/hp-arkui-image-async-load",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-image-async-load"
+        },
+        {
+          "text": "@performance/hp-arkui-load-on-demand",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-load-on-demand"
+        },
+        {
+          "text": "@performance/hp-arkui-limit-refresh-scope（已下线）",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-limit-refresh-scope"
+        },
+        {
+          "text": "@performance/hp-arkui-no-func-as-arg-for-reusable-component",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-no-func-as-arg-for-reusable-component"
+        },
+        {
+          "text": "@performance/hp-arkui-no-high-freq-log（已下线）",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkui-no-high-freq-log"
+        },
+        {
+          "text": "@performance/hp-arkui-no-stringify-in-lazyforeach-key-generator",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-no-stringify-lazyforeach-key"
+        },
+        {
+          "text": "@performance/hp-arkui-no-state-var-access-in-loop",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-no-state-var-access-in-loop"
+        },
+        {
+          "text": "@performance/hp-arkts-no-use-any-export-current",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkts-no-use-any-export-current"
+        },
+        {
+          "text": "@performance/hp-arkts-no-use-any-export-other",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkts-no-use-any-export-other"
+        },
+        {
+          "text": "@performance/hp-arkui-remove-container-without-property",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-remove-container-without-property"
+        },
+        {
+          "text": "@performance/hp-arkui-replace-nested-reusable-component-by-builder",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui--replace-reusable-by-builder"
+        },
+        {
+          "text": "@performance/hp-arkui-reduce-pangesture-distance",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkui-reduce-ges-distance"
+        },
+        {
+          "text": "@performance/hp-arkui-remove-redundant-nest-container",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-no-redundant-nest"
+        },
+        {
+          "text": "@performance/hp-arkui-remove-redundant-state-var",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkui-remove-redundant-state-var"
+        },
+        {
+          "text": "@performance/hp-arkui-remove-unchanged-state-var",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkui-remove-unchanged-state-var"
+        },
+        {
+          "text": "@performance/hp-arkui-set-cache-count-for-lazyforeach-grid",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-set-cache-count-for-lazyforeach-grid"
+        },
+        {
+          "text": "@performance/hp-arkui-suggest-cache-avplayer",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkui-suggest-cache-avplayer"
+        },
+        {
+          "text": "@performance/hp-arkui-suggest-reuseid-for-if-else-reusable-component",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-reuseid-if-else-component"
+        },
+        {
+          "text": "@performance/hp-arkui-suggest-use-effectkit-blur",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkui-suggest-use-effectkit-blur"
+        },
+        {
+          "text": "@performance/hp-arkui-suggest-use-get-anonymousid-async",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkui-sg-anonymousid-async"
+        },
+        {
+          "text": "@performance/hp-arkui-use-attributeUpdater-control-refresh-scope",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-attribute-update-refresh-scope"
+        },
+        {
+          "text": "@performance/hp-arkui-use-grid-layout-options",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-grid-layout-options"
+        },
+        {
+          "text": "@performance/hp-arkui-use-id-in-get-resource-sync-api",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-id-in-get-resource-sync-api"
+        },
+        {
+          "text": "@performance/hp-arkui-use-local-var-to-replace-state-var",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-local-var-to-replace-state-var"
+        },
+        {
+          "text": "@performance/hp-arkui-use-onAnimationStart-for-swiper-preload",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-onanimationstart-in-swiper"
+        },
+        {
+          "text": "@performance/hp-arkui-use-object-link-to-replace-prop",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-object-link-to-replace-prop"
+        },
+        {
+          "text": "@performance/hp-arkui-use-row-column-to-replace-flex",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-row-column-to-replace-flex"
+        },
+        {
+          "text": "@performance/hp-arkui-use-reusable-component",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-reusable-component"
+        },
+        {
+          "text": "@performance/hp-arkui-use-scale-to-replace-attr-animateto",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-scale-to-replace-attr-animateto"
+        },
+        {
+          "text": "@performance/hp-arkui-use-taskpool-for-web-request",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkui-use-taskpool-for-web-request"
+        },
+        {
+          "text": "@performance/hp-arkui-use-transition-to-replace-animateto",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-transition-to-replace-animateto"
+        },
+        {
+          "text": "@performance/hp-arkui-use-word-break-to-replace-zero-width-space",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-arkui-use-word-break-in-space"
+        },
+        {
+          "text": "@performance/hp-arkui-wrap-waterflow-if-else-footer（已下线）",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-arkui-wrap-waterflow-if-else-footer"
+        },
+        {
+          "text": "@performance/high-frequency-log-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-high-frequency-log-check"
+        },
+        {
+          "text": "@performance/hp-ffrt-no-use-std",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hp-ffrt-no-use-std"
+        },
+        {
+          "text": "@performance/hp-performance-no-closures",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-performance-no-closures"
+        },
+        {
+          "text": "@performance/hp-performance-no-dynamic-cls-func",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_hp-performance-no-dynamic-cls-func"
+        },
+        {
+          "text": "@performance/init-list-component",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-init-list-component"
+        },
+        {
+          "text": "@performance/js-code-cache-by-interception-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-js-code-cache-by-interception-check"
+        },
+        {
+          "text": "@performance/js-code-cache-by-precompile-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-js-code-cache-by-precompile-check"
+        },
+        {
+          "text": "@performance/lazyforeach-args-check（已下线）",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-lazyforeach-args-check"
+        },
+        {
+          "text": "@performance/lottie-animation-destroy-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-lottie-animation-destroy-check"
+        },
+        {
+          "text": "@performance/multiple-associations-state-var-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-multi-associations-state-var-check"
+        },
+        {
+          "text": "@performance/monitor-invisible-area-in-image-animation",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-monitor-invisible-area-in-image-animation"
+        },
+        {
+          "text": "@performance/no-use-any-import",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-no-use-any-import"
+        },
+        {
+          "text": "@performance/no-high-loaded-frame-rate-range",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-high-loaded-frame-rate-range"
+        },
+        {
+          "text": "@performance/number-init-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-number-init-check"
+        },
+        {
+          "text": "@performance/nested-post-frame-callback-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-nested-post-frame-callback-check"
+        },
+        {
+          "text": "@performance/object-creation-check（已下线）",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-object-creation-check"
+        },
+        {
+          "text": "@performance/reasonable-audio-use-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-reasonable-audio-use-check"
+        },
+        {
+          "text": "@performance/reasonable-gps-use-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-reasonable-gps-use-check"
+        },
+        {
+          "text": "@performance/reuse-date-instances-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-reuse-date-instances-check"
+        },
+        {
+          "text": "@performance/reasonable-sensor-use-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-reasonable-sensor-use-check"
+        },
+        {
+          "text": "@performance/sparse-array-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-sparse-array-check"
+        },
+        {
+          "text": "@performance/start-window-icon-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-start-window-icon-check"
+        },
+        {
+          "text": "@performance/typed-array-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-typed-array-check"
+        },
+        {
+          "text": "@performance/timezone-interface-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-timezone-interface-check"
+        },
+        {
+          "text": "@performance/tabs-on-change-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-tabs-on-change-check"
+        },
+        {
+          "text": "@performance/update-state-var-between-animatetos-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-update-state-var-between-animatetos-check"
+        },
+        {
+          "text": "@performance/web-cache-mode-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-performance-web-cache-mode-check"
+        },
+        {
+          "text": "@performance/web-on-active-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-web-on-active-check"
+        },
+        {
+          "text": "@performance/waterflow-data-preload-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-waterflow-data-preload-check"
+        }
+      ]
+    },
+    {
+      "name": "previewer",
+      "namespace": "@previewer/",
+      "url": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer",
+      "rule_ids": [
+        "@previewer/mandatory-default-value-for-local-initialization",
+        "@previewer/no-page-method-on-preview-component",
+        "@previewer/no-unallowed-decorator-on-root-component"
+      ],
+      "rule_anchors": [
+        {
+          "text": "@previewer/mandatory-default-value-for-local-initialization",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_value-for-local-initialization"
+        },
+        {
+          "text": "@previewer/no-page-method-on-preview-component",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-page-method-on-preview-component"
+        },
+        {
+          "text": "@previewer/no-unallowed-decorator-on-root-component",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-unallowed-decorator-on-root-component"
+        }
+      ]
+    },
+    {
+      "name": "cross-device-app-dev",
+      "namespace": "@cross-device-app-dev/",
+      "url": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-cross-device-app-dev",
+      "rule_ids": [
+        "@cross-device-app-dev/color-contrast",
+        "@cross-device-app-dev/color-value",
+        "@cross-device-app-dev/font-size",
+        "@cross-device-app-dev/font-size-unit",
+        "@cross-device-app-dev/grid-columns-span",
+        "@cross-device-app-dev/grid-span-value",
+        "@cross-device-app-dev/immersive-effect-check",
+        "@cross-device-app-dev/one-multi-breakpoint-check",
+        "@cross-device-app-dev/sidebar-navigation",
+        "@cross-device-app-dev/size-unit",
+        "@cross-device-app-dev/touch-target-size",
+        "@cross-device-app-dev/window-size-change-listener-check"
+      ],
+      "rule_anchors": [
+        {
+          "text": "@cross-device-app-dev/color-contrast",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_color-contrast"
+        },
+        {
+          "text": "@cross-device-app-dev/color-value",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_color-value"
+        },
+        {
+          "text": "@cross-device-app-dev/font-size-unit",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_font-size-unit"
+        },
+        {
+          "text": "@cross-device-app-dev/font-size",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_font-size"
+        },
+        {
+          "text": "@cross-device-app-dev/grid-columns-span",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_grid-columns-span"
+        },
+        {
+          "text": "@cross-device-app-dev/grid-span-value",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_grid-span-value"
+        },
+        {
+          "text": "@cross-device-app-dev/one-multi-breakpoint-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-one-multi-breakpoint-check"
+        },
+        {
+          "text": "@cross-device-app-dev/sidebar-navigation",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_sidebar-navigation"
+        },
+        {
+          "text": "@cross-device-app-dev/size-unit",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_size-unit"
+        },
+        {
+          "text": "@cross-device-app-dev/touch-target-size",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_touch-target-size"
+        },
+        {
+          "text": "@cross-device-app-dev/window-size-change-listener-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-window-size-change-listener-check"
+        },
+        {
+          "text": "@cross-device-app-dev/immersive-effect-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-immersive-effect-check"
+        }
+      ]
+    },
+    {
+      "name": "hw-stylistic",
+      "namespace": "@hw-stylistic/",
+      "url": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hw-stylistic",
+      "rule_ids": [
+        "@hw-stylistic/array-bracket-spacing",
+        "@hw-stylistic/brace-style",
+        "@hw-stylistic/comma-spacing",
+        "@hw-stylistic/curly",
+        "@hw-stylistic/file-naming-convention",
+        "@hw-stylistic/indent",
+        "@hw-stylistic/keyword-spacing",
+        "@hw-stylistic/max-len",
+        "@hw-stylistic/no-multi-spaces",
+        "@hw-stylistic/no-tabs",
+        "@hw-stylistic/object-property-newline",
+        "@hw-stylistic/one-var-declaration-per-line",
+        "@hw-stylistic/operator-linebreak",
+        "@hw-stylistic/quotes",
+        "@hw-stylistic/semi-spacing",
+        "@hw-stylistic/space-before-blocks",
+        "@hw-stylistic/space-before-function-paren",
+        "@hw-stylistic/space-infix-ops"
+      ],
+      "rule_anchors": [
+        {
+          "text": "@hw-stylistic/array-bracket-spacing",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_array-bracket-spacing"
+        },
+        {
+          "text": "@hw-stylistic/brace-style",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-brace-style-stylistic"
+        },
+        {
+          "text": "@hw-stylistic/comma-spacing",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-comma-spacing-stylistic"
+        },
+        {
+          "text": "@hw-stylistic/curly",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_curly"
+        },
+        {
+          "text": "@hw-stylistic/file-naming-convention",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-file-naming-convention"
+        },
+        {
+          "text": "@hw-stylistic/indent",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_indent"
+        },
+        {
+          "text": "@hw-stylistic/keyword-spacing",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-keyword-spacing-stylistic"
+        },
+        {
+          "text": "@hw-stylistic/max-len",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_max-len"
+        },
+        {
+          "text": "@hw-stylistic/no-multi-spaces",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-multi-spaces"
+        },
+        {
+          "text": "@hw-stylistic/no-tabs",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_no-tabs"
+        },
+        {
+          "text": "@hw-stylistic/object-property-newline",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_object-property-newline"
+        },
+        {
+          "text": "@hw-stylistic/one-var-declaration-per-line",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_one-var-declaration-per-line"
+        },
+        {
+          "text": "@hw-stylistic/operator-linebreak",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_operator-linebreak"
+        },
+        {
+          "text": "@hw-stylistic/quotes",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-quotes-stylistic"
+        },
+        {
+          "text": "@hw-stylistic/semi-spacing",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_semi-spacing"
+        },
+        {
+          "text": "@hw-stylistic/space-before-blocks",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_space-before-blocks"
+        },
+        {
+          "text": "@hw-stylistic/space-before-function-paren",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-space-before-function-paren-stylistic"
+        },
+        {
+          "text": "@hw-stylistic/space-infix-ops",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-space-infix-ops-stylistic"
+        }
+      ]
+    },
+    {
+      "name": "correctness",
+      "namespace": "@correctness/",
+      "url": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-codelinter-correctness",
+      "rule_ids": [
+        "@correctness/audio-interrupt-check",
+        "@correctness/audio-pause-or-mute-check",
+        "@correctness/avsession-buttons-check",
+        "@correctness/avsession-metadata-check",
+        "@correctness/image-interpolation-check",
+        "@correctness/image-pixel-format-check",
+        "@correctness/listen-default-network-change",
+        "@correctness/listen-multi-network-concurrent",
+        "@correctness/redundant-dependency-check"
+      ],
+      "rule_anchors": [
+        {
+          "text": "@correctness/avsession-buttons-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-avsession-buttons-check"
+        },
+        {
+          "text": "@correctness/audio-interrupt-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-audio-interrupt-check"
+        },
+        {
+          "text": "@correctness/audio-pause-or-mute-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-audio-pause-or-mute-check"
+        },
+        {
+          "text": "@correctness/avsession-metadata-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-avsession-metadata-check"
+        },
+        {
+          "text": "@correctness/image-pixel-format-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-image-pixel-format-check"
+        },
+        {
+          "text": "@correctness/image-interpolation-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-image-interpolation-check"
+        },
+        {
+          "text": "@correctness/listen-default-network-change",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_listen-default-network-change"
+        },
+        {
+          "text": "@correctness/listen-multi-network-concurrent",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide_listen-multi-network-concurrent"
+        },
+        {
+          "text": "@correctness/redundant-dependency-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-redundant-dependency-check"
+        }
+      ]
+    },
+    {
+      "name": "compatibility",
+      "namespace": "@compatibility/",
+      "url": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-codelinter-compatibility",
+      "rule_ids": [
+        "@compatibility/api-compatibility-check"
+      ],
+      "rule_anchors": [
+        {
+          "text": "@compatibility/api-compatibility-check",
+          "href": "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-api-compatibility-check"
+        }
+      ]
+    }
+  ]
+}
